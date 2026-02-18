@@ -22,7 +22,7 @@ A dynamic quiz application.
   - "Reset" functionality to clear state without reloading.
   - **Unique Touch:** Animated floating background globes and translucent cards.
 
-### 2️⃣ Task 02: Basics Calculator
+### 2️⃣ Task 02: Basic Calculator
 
 A stylish calculator supporting arithmetic operations with visual feedback.
 
