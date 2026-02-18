@@ -1,1 +1,1 @@
-<h1>Full Stack Programming LAb 2</h1>
+<h1>Full Stack Programming Lab2</h1>
