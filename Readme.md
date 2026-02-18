@@ -12,9 +12,9 @@ This lab contains two main tasks, each implemented with a focus on clean code an
 
 ### 1️⃣ Task 01: Interactive Quiz App
 
-A dynamic quiz application featuring a **Glassmorphism design** aesthetic.
+A dynamic quiz application.
 
-- **Path:** `./232025-Task-02/index.html` (Main entry)
+- **Path:** `./232025-Task-02/index.html`
 - **Features:**
   - Multiple-choice questions stored in Javascript objects.
   - Real-time score calculation.
