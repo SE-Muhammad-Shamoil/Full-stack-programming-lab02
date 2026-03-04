@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Asynchronous Data Loader using Promises - Lab Task 3" />
+    <title>Async Data Loader | Lab 03</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="bg-orbs">
+        <div class="orb orb1"></div>
+        <div class="orb orb2"></div>
+    </div>
+
+    <div class="container">
+        <header class="header">
+            <div class="badge">Promises · setTimeout · Async</div>
+            <h1>Asynchronous Data Loader</h1>
+            <p class="subtitle">Lab 03 &mdash; Task 03</p>
+        </header>
+
+        <!-- Controls -->
+        <div class="controls">
+            <div class="toggle-row">
+                <span class="toggle-label">Simulate Failure</span>
+                <label class="toggle" for="fail-toggle">
+                    <input type="checkbox" id="fail-toggle" />
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <button class="btn-primary" id="fetch-btn">
+                <span id="btn-text">⚡ Fetch Users</span>
+            </button>
+        </div>
+
+        <!-- Status timeline -->
+        <div class="timeline" id="timeline"></div>
+
+        <!-- Output -->
+        <div id="output-area"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

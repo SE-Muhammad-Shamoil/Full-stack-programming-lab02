@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Online Shopping Cart using Rest, Spread and Destructuring - Lab Task 2" />
+    <title>Online Shopping Cart | Lab 03</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="bg-orbs">
+        <div class="orb orb1"></div>
+        <div class="orb orb2"></div>
+    </div>
+
+    <div class="container">
+        <header class="header">
+            <div class="badge">Rest · Spread · Destructuring</div>
+            <h1>Online Shopping Cart</h1>
+            <p class="subtitle">Lab 03 &mdash; Task 02</p>
+        </header>
+
+        <div class="layout">
+            <!-- Left: Add products -->
+            <section class="panel" id="add-panel">
+                <h2 class="panel-title">🛒 Add to Cart</h2>
+                <div class="product-grid" id="product-grid">
+                    <!-- Products populated by JS -->
+                </div>
+                <button class="btn-primary" id="add-btn">Add Selected to Cart</button>
+            </section>
+
+            <!-- Right: Cart details -->
+            <section class="panel" id="cart-panel">
+                <h2 class="panel-title">🧾 Cart Details</h2>
+
+                <div class="info-block" id="total-block"></div>
+                <div class="info-block" id="first-block"></div>
+                <div class="info-block" id="rest-block"></div>
+                <div class="info-block" id="cloned-block"></div>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
