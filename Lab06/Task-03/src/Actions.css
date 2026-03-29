@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body { font-family: 'Inter', sans-serif; min-height: 100vh; }
+
+.actions-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.6s ease;
+  padding: 2rem;
+}
+
+.actions-container {
+  background: rgba(255,255,255,0.07);
+  backdrop-filter: blur(24px);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 28px;
+  padding: 3rem;
+  max-width: 520px;
+  width: 100%;
+  box-shadow: 0 30px 70px rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+.actions-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.5px;
+}
+
+.actions-subtitle {
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.45);
+  margin-bottom: 2.5rem;
+}
+
+.btn-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.action-btn {
+  padding: 1rem 1.5rem;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 14px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  transition: background 0.25s, transform 0.2s, box-shadow 0.2s, color 0.2s;
+  letter-spacing: 0.02em;
+}
+
+.action-btn:hover {
+  background: rgba(255,255,255,0.15);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+}
+
+.action-btn:active { transform: translateY(0); }
+
+.message-box {
+  margin-top: 2rem;
+  background: rgba(6, 214, 160, 0.1);
+  border: 1px solid rgba(6, 214, 160, 0.3);
+  border-radius: 14px;
+  padding: 1.25rem 1.5rem;
+  animation: pop 0.3s ease;
+}
+
+@keyframes pop {
+  from { opacity:0; transform: scale(0.95); }
+  to   { opacity:1; transform: scale(1); }
+}
+
+.message-box p {
+  color: #06d6a0;
+  font-size: 1rem;
+  font-weight: 600;
+}
